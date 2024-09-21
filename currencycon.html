@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCY CONVERTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="contain">
+    <h1>CURRENCY CONVERTER</h1>
+    <form>
+        <div class="ammount">
+            <p>Enter amount</p>
+            <input value="100" type="text">
+        </div>
+        <div class="from">
+            <p>From</p>
+            <div class="select">
+                <select name="from">
+                    <option value="usd">USD</option>
+                    <option value="pkr" selected>PKR</option>
+                    <option value="eur">EUR</option>
+                    <option value="dirham">Dirham</option>
+                </select>
+            </div>
+        </div>
+        <div class="to">
+            <p>To</p>
+            <div class="select">
+                <select name="to">
+                    <option value="usd">USD</option>
+                    <option value="pkr">PKR</option>
+                    <option value="eur">EUR</option>
+                    <option value="dirham" selected>Dirham</option>
+                </select>
+            </div>
+        </div>
+        <div class="msg">1 USD to PKR: 52</div>
+        <div class="butt">
+            <button type="submit">Exchange Rate</button>
+        </div>
+    </form>
+</div>
+<script src="project.js"></script>
+</body>
+</html>
